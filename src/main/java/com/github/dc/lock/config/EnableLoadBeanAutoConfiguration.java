@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author PeiYuan
  */
-@Configuration
+@Configuration("DcLockEnableLoadBeanAutoConfiguration")
 @ComponentScan("com.github.dc.lock")
 public class EnableLoadBeanAutoConfiguration {
 
